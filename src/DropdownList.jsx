@@ -320,7 +320,7 @@ var DropdownList = React.createClass({
       e.preventDefault();
       closeWithFocus()
     }
-    else if ((key === 'Enter' || (key === ' ' && !filtering)) && isOpen ) {
+    else if ((key === 'Enter' || (key === ' ' && !filtering))) {
       e.preventDefault();
       change(this.state.focusedItem, true)
     }
