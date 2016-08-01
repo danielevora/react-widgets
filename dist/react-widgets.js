@@ -1,4 +1,4 @@
-/*! (c) 2016 Jason Quense | https://github.com/jquense/react-widgets/blob/master/License.txt */
+﻿/*! (c) 2016 Jason Quense | https://github.com/jquense/react-widgets/blob/master/License.txt */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory(require("react"), require("react-dom"));
@@ -1464,7 +1464,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    } else if (key === 'Escape' && isOpen) {
 	      e.preventDefault();
 	      closeWithFocus();
-	    } else if ((key === 'Enter' || key === ' ' && !filtering) && isOpen) {
+	    } else if ((key === 'Enter' || key === ' ' && !filtering)) {
 	      e.preventDefault();
 	      change(this.state.focusedItem, true);
 	    } else if (key === ' ' && !filtering && !isOpen) {
